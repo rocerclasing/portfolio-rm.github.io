@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white; /* Cambia esto si ya tienes un color de fondo definido */
+  color: black; /* Asegúrate de que el texto sea visible */
+}
+
+
+.vite-icon {
+    width: 50px; /* Ajusta el tamaño como desees */
+    height: auto; /* Mantiene la proporción del icono */
+    background-color: transparent; /* Asegura que el fondo sea transparente */
+    display: block; /* Opcional: para eliminar el espacio debajo de la imagen */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1s forwards;
+  }
+  
+ 
